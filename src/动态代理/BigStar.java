@@ -13,6 +13,7 @@ public class BigStar  implements Star{
     }
     @Override
     public String sing(String name){
+        System.out.println("kk");
         System.out.println(this.name+"is singing"+name);
         return "thank you";
     }

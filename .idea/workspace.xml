@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc1cdf6-9bd3-4d99-b023-c3f18ac07a13" name="变更" comment="" />
+    <list default="true" id="ffc1cdf6-9bd3-4d99-b023-c3f18ac07a13" name="变更" comment="java基础练习">
+      <change afterPath="$PROJECT_DIR$/src/包装类/test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/匿名内部类/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/多态数组/AbstractArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/多态数组/InterfaceArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/接口/ContainConstantInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/接口/ContainConstantInterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/接口/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/接口和抽象类类/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/枚举类/EnumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/枚举类/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/泛型练习/GenericTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBase/String/test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBase/String/test01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBase/动态代理/BigStar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBase/动态代理/BigStar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBase/动态代理/ProxyUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBase/动态代理/ProxyUtil$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBase/动态代理/ProxyUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBase/动态代理/ProxyUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态代理/BigStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态代理/BigStar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态代理/ProxyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态代理/ProxyUtil.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,10 +39,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2S34oiBSdqxl9VGX7kxePlDKedV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,14 +58,17 @@
     &quot;ToolWindow运行.ShowToolbar&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/springboot/javaBase/src/接口和抽象类类/Main.java&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.552737&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;D:/springboot/javaBase/src/接口和抽象类类/Main.java&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -49,13 +76,26 @@
       <recent name="D:\springboot\javaBase\src\反射" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Test">
-    <configuration name="反射获取成员方法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflect.反射获取成员方法" />
+  <component name="RunManager" selected="应用程序.GenericTest">
+    <configuration name="EnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="枚举类.EnumTest" />
       <module name="javaBase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflect.*" />
+          <option name="PATTERN" value="枚举类.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="泛型练习.GenericTest" />
+      <module name="javaBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="泛型练习.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,38 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="反射练习" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflect.反射练习" />
+    <configuration name="包装类.test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="包装类.test01" />
       <module name="javaBase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="反射练习结合配置文件动态创建" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflect.反射练习结合配置文件动态创建" />
-      <module name="javaBase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="多态.test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="多态.test01" />
-      <module name="javaBase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="多态.*" />
+          <option name="PATTERN" value="包装类.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +130,11 @@
       </method>
     </configuration>
     <configuration name="test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="继承.test01" />
+      <option name="MAIN_CLASS_NAME" value="String.test01" />
       <module name="javaBase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="继承.*" />
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,9 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.GenericTest" />
+        <item itemvalue="应用程序.EnumTest" />
+        <item itemvalue="应用程序.包装类.test01" />
         <item itemvalue="应用程序.Test" />
         <item itemvalue="应用程序.test01" />
-        <item itemvalue="应用程序.反射获取成员方法" />
       </list>
     </recent_temporary>
   </component>
@@ -176,11 +192,44 @@
       <workItem from="1734005778771" duration="4768000" />
       <workItem from="1734062512537" duration="15604000" />
       <workItem from="1734086951044" duration="10000" />
-      <workItem from="1734086982809" duration="630000" />
+      <workItem from="1734086982809" duration="3519000" />
+      <workItem from="1734097881794" duration="6268000" />
+      <workItem from="1734174495107" duration="3008000" />
+      <workItem from="1734232573243" duration="7604000" />
+      <workItem from="1734917426296" duration="474000" />
+      <workItem from="1734918393010" duration="62000" />
+      <workItem from="1735115223804" duration="351000" />
+      <workItem from="1735125530854" duration="21000" />
+      <workItem from="1735196997122" duration="2062000" />
+      <workItem from="1735206813814" duration="2000" />
+      <workItem from="1735288094288" duration="1019000" />
     </task>
+    <task id="LOCAL-00001" summary="java基础练习">
+      <created>1734087812828</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734087812828</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java基础练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="java基础练习" />
   </component>
 </project>
