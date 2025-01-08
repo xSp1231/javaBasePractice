@@ -8,9 +8,10 @@ package 接口;
 public class InterfaceTest implements live{
 
     public static void main(String[] args) {
+     System.out.println(ContainConstantInterface.ACCEPT);
      InterfaceTest interfaceTest=new InterfaceTest();
      interfaceTest.drink();
-        System.out.println(InterfaceTest.number);
+     System.out.println(InterfaceTest.number);
     }
 
     @Override
